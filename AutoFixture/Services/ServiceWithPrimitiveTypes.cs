@@ -10,7 +10,7 @@ namespace AutoFixtureDemo.Services
 
         public ServiceWithPrimitiveTypes(string parameter1, int parameter2)
         {
-            
+            Name = parameter1;
         }
     }
 }

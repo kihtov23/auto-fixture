@@ -7,5 +7,7 @@ namespace AutoFixture.Services
     public interface IUserService
     {
         string GetUserName();
+
+        string GetPrimitiveName();
     }
 }

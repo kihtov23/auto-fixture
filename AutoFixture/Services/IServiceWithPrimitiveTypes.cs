@@ -6,5 +6,6 @@ namespace AutoFixtureDemo.Services
 {
     public interface IServiceWithPrimitiveTypes
     {
+        public string Name{ get; set; }
     }
 }
