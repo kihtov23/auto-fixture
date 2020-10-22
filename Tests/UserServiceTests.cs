@@ -18,7 +18,7 @@ namespace Tests
         {
             var fixture = new Fixture();
             
-            var sut = fixture.Create<UserService>();
+            // var sut = fixture.Create<UserService>();
         }
 
         [Fact]
@@ -32,8 +32,6 @@ namespace Tests
                     typeof(UserRepository)));
 
             fixture.Create<UserService>();
-
-            Assert.Equal(1, 1);
         }
 
         [Fact]
@@ -42,8 +40,6 @@ namespace Tests
             var fixture = new Fixture().Customize(new AutoMoqCustomization());
 
             var sut = fixture.Create<UserService>();
-
-            Assert.Equal(1, 1);
         }
 
         [Fact]
