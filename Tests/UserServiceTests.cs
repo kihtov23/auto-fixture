@@ -95,7 +95,7 @@ namespace Tests
         }
 
         [Fact]
-        public void CustomRegister()
+        public void Custom_Register()
         {
             // Arrange
             var fixture = new Fixture().Customize(new AutoMoqCustomization());
