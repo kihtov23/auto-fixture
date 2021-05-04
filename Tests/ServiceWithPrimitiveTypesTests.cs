@@ -18,7 +18,7 @@ namespace Tests
             var fixture = new Fixture();
             
             // Exception will not be thrown because constructor with primitive types parameters could be handled by fixture
-            fixture.Create<ServiceWithPrimitiveTypes>();
+            var serviceWithPrimitiveTypes = fixture.Create<ServiceWithPrimitiveTypes>();
         }
 
         [Fact]
